@@ -1,12 +1,15 @@
 {
-  "name": "backend_nodejs_mvc",
-  "version": "1.0.0",
+  "name": "restful-backend-template",
+  "version": "1.0.2",
   "description": "It`s a backend application build with MVC(Model View Controler) architecture",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier-eslint --write \"src/**/*.js\" \"*.js\""
+  },
+  "bin": {
+    "create-restful-backend": "bin/create-restful-backend.js"
   },
   "keywords": [],
   "author": "",
